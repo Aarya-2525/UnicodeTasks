@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center bg-red-500">
+    <header class="mb-8 text-center text-4xl font-bold">
+        <h1>Let's Play Tic Tac Toe!</h1>
+        <p>X vs O</p>
+    </header>
+    <main>
+        <div id="board" class="grid grid-cols-3 gap-2">
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">1</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">2</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">3</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">4</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">5</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">6</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">7</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">8</button>
+            <button class="w-24 h-24 border-4 border-black items-center justify-center text-4xl font-bold rounded-2xl">9</button>
+        </div>
+    </main>
+    <section class="text-center mt-6">
+        <p class="text-lg font-semibold">Player X's Turn</p>
+    </section>
+    <button class="mt-6 px-4 py-2 bg-blue-500 border-4 border-black text-white rounded-lg shadow hover:bg-blue-600 hover:border-white transition">Restart Game</button>
+</body>
+</html>
