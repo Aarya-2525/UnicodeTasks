@@ -2,7 +2,7 @@
 
 ###### Task 1
 
-⬜ Build a Tic-Tac-Toe game with HTML + Tailwind CSS
+✅ Build a Tic-Tac-Toe game with HTML + Tailwind CSS
 
 ⬜ Clear fundamentals of JS (ES6+)
 
